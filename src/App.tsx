@@ -12,15 +12,6 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/access" element={<Access />} />
-          <Route path="*" element={<NotFound />} />
-        </Route> */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
@@ -28,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/access" element={<Access />} />
+
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
